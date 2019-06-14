@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main {
+  background: #C30121;
+  background-size: contain;
+  width: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 10px;
+  padding-bottom: 100px;
+  position: relative;
+}
+#main #takeItem {
+  background: #161113;
+  width: 120px;
+  height: 0px;
+  position: absolute;
+  bottom: 20px;
+  left: 60px;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+#main #food {
+  margin-left: 15%;
+  margin-right: 30%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+#main #bord {
+  height: 100%;
+  width: 50px;
+  position: absolute;
+  right: 10px;
+  top: 0;
+  padding-left: 10px;
+  border-left: 5px #161113 solid;
+}
+#main #display,
+#main #display2 {
+  width: 50px;
+  height: 50px;
+  background: #161113;
+  position: absolute;
+  right: 00px;
+  top: 70px;
+  padding: 2px;
+}
+#main #display2 {
+  height: 70px;
+  top: 120px;
+}
+#main .food {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40%;
+  border-bottom: 3px solid #85796a;
+}
+#main .food p {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  font-weight: 500;
+  color: #ccc;
+}
+#coins {
+  display: flex;
+  flex-direction: column;
+}
+#coins img {
+  position: relative;
+}
